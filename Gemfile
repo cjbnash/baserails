@@ -14,11 +14,12 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
-    gem 'web-console', '>= 3.3.0'
+  
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
 end
 
+gem 'web-console', '>= 3.3.0', group: :development
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.1'
